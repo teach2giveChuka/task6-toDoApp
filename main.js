@@ -24,7 +24,7 @@ todoform.addEventListener('submit', (event)=>{
         todo_text.value = '';
 
         let tr = document.createElement('tr');
-       let td = document.createElement('td');
+        let td = document.createElement('td');
         
         td.textContent =input;
         table.appendChild(td);
