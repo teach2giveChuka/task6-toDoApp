@@ -60,10 +60,18 @@ body {
     color: rgb(66, 66, 66);
     cursor: pointer;
 }
+.toggle{
+    /* background-color: aqua; */
+}
+.toggle .dark{
+    display: none;
+    /* background-color: pink; */
+}
 .submit:hover{
     cursor: pointer;
     background-color: (239, 238, 241);
 }
+
 .submit{
     border: none;
     width: 24px;
@@ -137,7 +145,7 @@ input::placeholder {
 }
 td {
     padding: 10px;
-    border-bottom: 1px solid #d8d5e0;
+    /* border-bottom: 1px solid #d8d5e0; */
 }
 
 body{
@@ -149,4 +157,16 @@ table{
 
 .btm{
     box-shadow: 1px 2px 10px rgb(188, 188, 188);
+}
+
+
+table{
+    background-color: aqua;
+}
+.displaytd{
+    display: flex;
+    /* background-color: #5680D6; */
+    border-bottom: 1px solid #d8d5e0;
+    align-items: center;
+    padding: 10px 25px;
 }

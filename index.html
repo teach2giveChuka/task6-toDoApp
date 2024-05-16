@@ -11,67 +11,74 @@
 
   <title>Frontend Mentor | Todo app</title>
 
-  
+
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <div class="main">
     <br><br>
-  <div class="top">
-    <br><br><br><br><br>
-    <div class="bg"></div>
+    <div class="top">
+      <br><br><br><br><br>
+      <div class="bg"></div>
 
-    <div class="container">
-      <div class="title">
-        <div class="todo">TODO</div>
-        <div class="toggle"><img src="./images/icon-moon.svg" alt=""></div>
+      <div class="container">
+        <div class="title">
+          <div class="todo">TODO</div>
+          <div class="toggle" id="l">
+            <div class="light">
+              <img src="./images/icon-moon.svg" alt="">
+            </div>
+            <div class="dark">
+              <img src="./images/icon-sun.svg" alt="">
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="form" id="w">
+          <form action="">
+
+            <input class="submit" type="submit" value=" ">
+
+            <!-- to be added on click  <img src="./images/icon-check.svg" -->
+            <input id="wh" class="todo-text" type="text" placeholder="Create a new todo...">
+          </form>
+        </div><br><br>
+
+        <!-- <table >login for insertion of the cone -->
+        <div class="btm">
+          <table class="table-data" id="wh3">
+
+          </table>
+
+          <!-- Bottom nav -->
+          <div class="nav" id="wh4">
+            <div class="lefttnav"><!-- Add dynamic number --> items left</div>
+            <div class="rightnav">
+              <div class="right1">
+                <div class="all">All</div>
+                <div class="active">Active</div>
+                <div class="completed">Completed</div>
+              </div>
+            </div>
+            <div class="clear">Clear Completed</div>
+
+          </div>
+        </div>
+
       </div>
-      
-  
-      <div class="form">
-        <form action="">
-          
-        <input class="submit" type="submit" value=" "> 
-         
-        <!-- to be added on click  <img src="./images/icon-check.svg" -->
-        <input class = "todo-text" type="text" placeholder="Create a new todo...">
-      </form>
-      </div><br><br>
 
-      <!-- <table >login for insertion of the cone -->
-       <div class="btm">
-        <table class="table-data">
-
-        </table>
- 
-       <div class="nav">
-         
-         <div class="lefttnav"><!-- Add dynamic number --> items left</div>
- 
-         <div class="rightnav">
-           <div class="right1">
-             <div class="all">All</div>
-             <div class="active">Active</div>
-             <div class="completed">Completed</div>
-           </div>
-           </div>
-           <div class="clear">Clear Completed</div>
- 
-       </div>
-       </div>
+      <div class="drag" id="wh5">Drag and drop to reorder list</div>
 
     </div>
-    
-    <div class="drag">Drag and drop to reorder list</div>
-
   </div>
-</div>
 
-<script  src="main.js"></script>
+  <script src="main.js"></script>
 
 
- 
+
 </body>
 
 </html>
