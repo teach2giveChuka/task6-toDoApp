@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-size: 18px; */
+}
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+  }
+.major{
+    width: 100vh;
+
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    background-image: url("./images/bg-desktop-light.jpg");
+    /* background-image: linear-gradient(to right, rgb(255, 1, 196, 0.5), rgba(0, 0, 255, 0.5)); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    /* background-color: aquamarine; */
+    width: 40vw;
+    margin-bottom: 20px;
+}
+.todo{
+    /* background-color: beige; */
+    font-size: 30px;
+    letter-spacing: 10px;
+    padding: 25px 0px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.toggle img:hover{
+    width: 110%;
+    height: 105%;
+    color: rgb(66, 66, 66);
+    cursor: pointer;
+}
+.submit:hover{
+    cursor: pointer;
+    background-color: (239, 238, 241);
+}
+.submit{
+    border: none;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    object-fit: cover;   
+    border: 1px solid #e8e6ed;
+    background-color: white;
+
+}
+input::placeholder {
+    font-family: 'Josefin Sans', sans-serif; 
+ }
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form{
+    background-color: white;
+    padding: 5px 25px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.form input[type="text"]{
+    border: none;
+    padding: 10px 10px;
+    width: 80%;
+    font-size: 19px;
+}
+
+
+
+
+.nav{
+    display: flex;
+    display: flex;
+    margin: opx 10px;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px;
+    font-size: 13px;
+}
+.right1{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+   
+}
+.all:hover, .active:hover, .completed:hover, .clear:hover{
+    color: #5680D6;
+    cursor: pointer;
+}
+.drag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
